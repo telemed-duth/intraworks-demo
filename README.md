@@ -9,12 +9,12 @@
 		sudo apt-get update && sudo apt-get install build-essential sqlite3
 	
 - Update NPM and install deps
-	
-		npm install -g npm gulp gulp-cli webpack
+		
+		npm install -g npm && npm install -g gulp gulp-cli webpack node-gyp
 
 - Make sure you have python 2.7 installed with `python --version` and then set npm to use this
 
-		npm install -g node-gyp npm config set python $(which python)
+		npm config set python $(which python)
 
 ### Developing
 

@@ -19,12 +19,9 @@ module.exports = {
 
   // Seed database on startup
   seedDB: true,
-  
   // Configure cloud9 port setup
-  
   // Browser-sync port
-  browserSyncPort: process.env.PORT || 8080,
-
+  browserSyncPort: 8080,
   // Server port
   port: 3000,
 
